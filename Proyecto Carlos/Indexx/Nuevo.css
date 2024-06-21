@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
+
+body {
+  background-color: cornsilk;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+}
+
+.contenido {
+  max-width: 1200px;
+  min-width: 768px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.mostrador .fila {
+  width: 100%;
+  display: flex;
+  justify-content: space-around; 
+  margin-bottom: 40px;
+}
+
+
+.mostrador .fila .item {
+  max-width: 380px; 
+  padding: 30px;
+  height: 250px;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+
+.mostrador .fila .item:hover {
+  background-color: #e6e6e6;
+}
+
+
+.mostrador .fila .item img {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.mostrador .fila .item .descripcion {
+  color: #707070;
+  font-weight: bold;
+}
+
+
+.mostrador .fila .item .precio {
+  color: #f85151;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.CentrarEsteTexto{
+    text-align:center ;
+    font-size: 55px;
+    } 
+    a{
+    
+        display:inline-block;
+        padding: 13px 55px;
+        border: 1px solid;
+        border-radius:25px;
+        color: #f85151;
+        text-decoration: none;
+        margin-top: 0px;
+    }
+    
